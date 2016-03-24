@@ -2,7 +2,7 @@
 var fs = require("fs");
 //reading files in a folder...
 var filesInFolder = fs.readdirSync("./files/week1");
-
+    console.log(filesInFolder);
 // loop through all the files - then you have the file name
   // still in your loop - read the file contents
 var linesInFiles = [];//empty array for the content
